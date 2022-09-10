@@ -1,0 +1,301 @@
+.titulo{
+  text-align: center;
+  color: blue;
+  font: oblique bold 120% cursive;
+  font-size: 25px;
+  font-weight: 700;
+}
+.texto_ini{
+  padding-left: 40px;
+  padding-right: 60px;
+}
+.datos{
+  padding-left: 40px;
+}
+.datos1{
+  list-style: none;
+  width: 280px;
+  float: left;
+}
+.datos2{
+  list-style: none;
+  width: 280px;
+  float: left;
+}
+.foto1{
+  width: 300px;
+  height: auto;
+}
+.Dimensionamiento{
+  clear:both;
+  width: 600px;
+  height: 400px;
+  padding-left: 40px;
+}
+.foto21{
+  width: 700px;
+  height: auto;
+  position: relative;
+  left: -150px;
+  bottom: 40px;
+  float: right;
+}
+.foto2{
+  width: 600px;
+  height: auto;
+  position: relative;
+  filter: brightness(1.1);
+  mix-blend-mode: multiply;
+}
+.verificacion_a_punzo{
+  padding-left: 40px;
+}
+.cumple1{
+  display: flex;
+  float: right;
+  position: relative;
+  right: 40px;
+  bottom: 7px;
+}
+.verificacion_a_flexion{
+  padding-left: 40px;
+}
+.sentidox{
+  width: 300px;
+  float: left;
+}
+.foto31{
+  width: 300px;
+  height: 260px;
+  position: relative;
+}
+.foto3{
+  width: 300px;
+  height: auto;
+  position: absolute;
+  filter: brightness(1.1);
+  mix-blend-mode: multiply;
+}
+.sentidoy{
+  width: 300px;
+  float: left;
+}
+.foto41{
+
+  width: 300px;
+  height: 260px;
+  position: relative;
+}
+.foto4{
+  width: 300px;
+  height: auto;
+  position: absolute;
+  filter: brightness(1.1);
+  mix-blend-mode: multiply;
+}
+.canto_util{
+  padding-left: 40px;
+}
+.transf{
+  padding-left: 40px;
+  width: 500px
+}
+.cumple_2{
+  float: right;
+  position: relative;
+  right: 50px;
+  bottom: 15px;
+}
+.flexion{
+  padding-left: 40px;
+}
+.acero_x{
+  font-weight: bold;
+}
+.sentx{
+  float: left;
+  width: 450px;
+}
+
+.img1{
+  position: absolute;
+}
+.foto51{
+  height: 460px;
+}
+.foto5{
+  position: relative;
+  width: 300px;
+  height: auto;
+  filter: brightness(1.1);
+  mix-blend-mode: multiply;
+  display: flex;
+  align-items: center;
+  top: 60px;
+}
+.cuadrado1{
+  position: relative;
+  height: 0px;
+  width: 200px;
+  left: 540px;
+  bottom: 380px;
+}
+.senty{
+  float: left;
+  width: 450px;
+  position: relative;
+}
+.img2{
+  position: absolute;
+}
+.foto61{
+  height: 430px;
+}
+.foto6{
+  position: relative;
+  width: 300px;
+  height: auto;
+  filter: brightness(1.1);
+  mix-blend-mode: multiply;
+  display: flex;
+  align-items: center;
+  top: 60px;
+}
+
+.acero_y{
+  font-weight: bold;
+}
+.cuadrado2{
+  position: relative;
+  height: 10px;
+  width: 200px;
+  left: 505px;
+  bottom: 230px;
+  transform: rotate(90deg);
+}
+.verficacion_por_adherencia{
+  padding-left: 40px;
+}
+.veri{
+  height: 70px;
+  padding-left: 100px;
+}
+.p1{
+  width: 90px;
+}
+.p2{
+  float: left;
+  width: 90px;
+  position: relative;
+  bottom: 20px;
+}
+.p3{
+  float: left;
+  width: 120px;
+  position: relative;
+  bottom: 20px;
+}
+.AS3{
+  padding-left: 40px;
+}
+.As3{
+  width: 450px;
+  float: left;
+}
+.acero_3{
+  font-weight: bold;
+}
+.foto7{
+  width: 300px;
+  height: auto;
+  position: relative;
+  padding-left: 0px;
+  filter: brightness(1.1);
+  mix-blend-mode: multiply;
+  display: flex;
+  align-items: center;
+}
+.cuadrado3{
+  position: relative;
+  height: 10px;
+  width: 200px;
+  left: 750px;
+  bottom: -150px;
+  transform: rotate(90deg);
+}
+
+/*cambio de tamaño de la pantalla*/
+@media (max-width: 700px) {
+  body{
+
+  }
+  .verificacion_a_punzo{
+    padding-left: 40px;
+    height: 620px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .foto2{
+    width: 600px;
+  }
+  .foto21{
+    width: 600px;
+    height: auto;
+    position: relative;
+    left: -40px;
+    bottom: 10px;
+    float: left;
+  }
+  .sentidox{
+    width: 300px;
+    float: none;
+  }
+  .sentidoy{
+    width: 300px;
+    float: none;
+  }
+  .sentx{
+    float: none;
+    width: 450px;
+  }
+  .foto51{
+    position: none;
+    height: 235px;
+    top: 0px;
+  }
+  .img1{
+    position: relative;
+    right: 450px;
+    top: 160px;
+  }
+  .senty{
+    float: none;
+    width: 450px;
+  }
+  .foto61{
+    position: none;
+    height: 235px;
+    top: 0px;
+  }
+  .img2{
+    position: relative;
+    right: -150px;
+    top: 470px;
+  }
+  .As3{
+    float: none;
+  }
+  .foto71{
+    position: none;
+    height: 235px;
+    top: 0px;
+  }
+  .foto7{
+    position: absolute;
+    right: 240px;
+  }
+  .img3{
+    position: relative;
+    right: 0px;
+    top: 750px;
+  }
+}
