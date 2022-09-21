@@ -1,6 +1,10 @@
+#Cabeza-de-zapata{
+  width: 90%;
+  margin: 0px auto;
+}
 .titulo{
   text-align: center;
-  color: blue;
+  color: BLUE;
   font: oblique bold 120% cursive;
   font-size: 25px;
   font-weight: 700;
@@ -8,13 +12,20 @@
 .texto_ini{
   padding-left: 40px;
   padding-right: 60px;
+  font: arial;
 }
+#datos-inicio{
+  width: 950px;
+  margin: 0px auto;
+}
+
 .datos{
   padding-left: 40px;
+  margin: 5px;
+  width: 30%;
 }
 .datos1{
   list-style: none;
-  width: 280px;
   float: left;
 }
 .datos2{
@@ -23,51 +34,89 @@
   float: left;
 }
 .foto1{
-  width: 300px;
+  clear: both;
+  width: 250px;
   height: auto;
 }
-.Dimensionamiento{
-  clear:both;
-  width: 600px;
-  height: 400px;
+#Dimensionamiento{
+  width: 950px;
+  height: 420px;
   padding-left: 40px;
+  margin: 0px auto;
 }
-.foto21{
-  width: 700px;
-  height: auto;
-  position: relative;
-  left: -150px;
-  bottom: 40px;
-  float: right;
+.Dimensionamiento1{
+    list-style: none;
+    width: 580px;
+    height: 420px;
+    float: left;
 }
-.foto2{
-  width: 600px;
-  height: auto;
-  position: relative;
-  filter: brightness(1.1);
-  mix-blend-mode: multiply;
+.Dimensionamiento2{
+    height: 240px;
+    width: 270px;
+   list-style: none;
+   float: left;
 }
-.verificacion_a_punzo{
-  padding-left: 40px;
+
+.foto2500{
+    width: 250px;
+    position: relative;
+    left: -200px;
+    bottom: -130px;
 }
 .cumple1{
   display: flex;
   float: right;
   position: relative;
   right: 40px;
-  bottom: 7px;
+  bottom: -5px;
 }
-.verificacion_a_flexion{
+
+#verificacion_a_punzo{
+  width: 950px;
+  height: 420px;
   padding-left: 40px;
+  margin: 0px auto;
+}
+.Verificacion1{
+  list-style: none;
+  width: 580px;
+  height: 415px;
+  float: left;
+}
+.Verificacion2{
+  height: 240px;
+  width: 270px;
+ list-style: none;
+ float: left;
+}
+
+.foto2{
+  width: 500px;
+  position: relative;
+  left: -290px;
+  bottom: -170px;
+}
+
+#verificacion_a_flexion{
+  width: 950px;
+  height: 720px;
+  padding-left: 40px;
+  margin: 0px auto;
 }
 .sentidox{
   width: 300px;
   float: left;
 }
+.Sx{
+  float: left;
+  width: 100%;
+  padding-top: 20px;
+}
 .foto31{
-  width: 300px;
-  height: 260px;
+  width: 400px;
+  height: 275px;
   position: relative;
+  float: left;
 }
 .foto3{
   width: 300px;
@@ -76,15 +125,20 @@
   filter: brightness(1.1);
   mix-blend-mode: multiply;
 }
+.Sy{
+  float: left;
+  width: 100%;
+  padding-top: 20px;
+}
 .sentidoy{
   width: 300px;
   float: left;
 }
 .foto41{
-
-  width: 300px;
-  height: 260px;
+  width: 400px;
+  height: 275px;
   position: relative;
+  float: left;
 }
 .foto4{
   width: 300px;
@@ -93,63 +147,83 @@
   filter: brightness(1.1);
   mix-blend-mode: multiply;
 }
-.canto_util{
+
+
+#canto_util{
+  width: 950px;
+  height: 280px;
   padding-left: 40px;
+  margin: 0px auto;
 }
-.transf{
+
+#transf{
+  width: 950px;
+  height: 150px;
   padding-left: 40px;
-  width: 500px
+  margin: 0px auto;
 }
 .cumple_2{
-  float: right;
+  float: left;
   position: relative;
-  right: 50px;
-  bottom: 15px;
+  right: -410px;
+  bottom: -3px;
 }
-.flexion{
+#flexion{
+  width: 950px;
+  height: 1020px;
   padding-left: 40px;
-}
-.acero_x{
-  font-weight: bold;
+  margin: 0px auto;
 }
 .sentx{
   float: left;
   width: 450px;
-}
-
-.img1{
-  position: absolute;
+    float: left;
+    height: 485px;
 }
 .foto51{
-  height: 460px;
-}
-.foto5{
-  position: relative;
-  width: 300px;
-  height: auto;
-  filter: brightness(1.1);
-  mix-blend-mode: multiply;
-  display: flex;
-  align-items: center;
-  top: 60px;
+  height: 485px;
+      float: left;
 }
 .cuadrado1{
+  float: left;
   position: relative;
-  height: 0px;
   width: 200px;
-  left: 540px;
-  bottom: 380px;
-}
+  left: 90px;
+  bottom: 160px;
+  }
+  .foto5{
+    position: relative;
+    width: 300px;
+    height: auto;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    display: flex;
+    align-items: center;
+    top: 60px;
+  }
+  .acero_x{
+    font-weight: bold;
+  }
+
 .senty{
   float: left;
   width: 450px;
-  position: relative;
+    float: left;
+    height: 485px;
 }
-.img2{
-  position: absolute;
-}
+
+  .cuadrado2{
+    float: left;
+    position: relative;
+    width: 140px;
+    height: 1px;
+    left: 50px;
+    bottom: 85px;
+    transform: rotate(90deg);
+  }
 .foto61{
-  height: 430px;
+height: 485px;
+    float: left;
 }
 .foto6{
   position: relative;
@@ -161,27 +235,30 @@
   align-items: center;
   top: 60px;
 }
-
+.img1{
+  position: absolute;
+}
 .acero_y{
   font-weight: bold;
 }
-.cuadrado2{
-  position: relative;
-  height: 10px;
-  width: 200px;
-  left: 505px;
-  bottom: 230px;
-  transform: rotate(90deg);
-}
-.verficacion_por_adherencia{
+
+#verficacion_por_adherencia{
+  width: 950px;
+  height: 330px;
   padding-left: 40px;
+  margin: 0px auto;
 }
-.veri{
-  height: 70px;
-  padding-left: 100px;
+.AdhX{
+  float: left;
+  width: 450px;
+    float: left;
+    height: 280px;
 }
-.p1{
-  width: 90px;
+.Adhy{
+  float: left;
+  width: 450px;
+    float: left;
+    height: 280px;
 }
 .p2{
   float: left;
@@ -191,19 +268,27 @@
 }
 .p3{
   float: left;
-  width: 120px;
+  width: 90px;
   position: relative;
   bottom: 20px;
 }
-.AS3{
+#AS3{
+  width: 950px;
+  height: 430px;
   padding-left: 40px;
+  margin: 0px auto;
 }
+
 .As3{
-  width: 450px;
   float: left;
+  width: 450px;
+    height: 380px;
 }
-.acero_3{
-  font-weight: bold;
+
+.foto71{
+  float: left;
+  width: 450px;
+    height: 380px;
 }
 .foto7{
   width: 300px;
@@ -217,85 +302,163 @@
 }
 .cuadrado3{
   position: relative;
-  height: 10px;
-  width: 200px;
-  left: 750px;
-  bottom: -150px;
+  height: 20px;
+  width: 140px;
+  left: 0px;
+  bottom: 160px;
   transform: rotate(90deg);
 }
+.img3{
+  position: relative;
+  left: 0px;
+  bottom: 0px;
+}
+.acero_3{
+  font-weight: bold;
+}
+
 
 /*cambio de tamaño de la pantalla*/
-@media (max-width: 700px) {
-  body{
+@media (max-width: 950px) {
+  #datos-inicio{
+    width: 100%;
 
   }
-  .verificacion_a_punzo{
-    padding-left: 40px;
-    height: 620px;
-    grid-template-columns: repeat(2, 1fr);
+  #Dimensionamiento{
+    width: 100%;
+    height: 680px;
+  }
+  .Dimensionamiento1{
+    width: 100%;
+    height: auto;
+  }
+  .foto2500{
+      width: 250px;
+      position: relative;
+      left: 0px;
+      bottom: 0px;
+  }
+  .cumple1{
+    position: relative;
+    float:left;
+    right: -510px;
+  }
+  #verificacion_a_punzo{
+    width: 100%;
+    height:600px;
   }
   .foto2{
-    width: 600px;
-  }
-  .foto21{
-    width: 600px;
-    height: auto;
+    width: 500px;
     position: relative;
-    left: -40px;
-    bottom: 10px;
-    float: left;
+    left: 0px;
+    bottom: 0px;
   }
-  .sentidox{
-    width: 300px;
-    float: none;
+  .Verificacion1{
+    width: 100%;
+    height: auto;
   }
-  .sentidoy{
-    width: 300px;
-    float: none;
+
+#verificacion_a_flexion{
+    width: 100%;
+    height: 1280px;
   }
-  .sentx{
-    float: none;
-    width: 450px;
+  .Sx{
+    width: 100%;
+  }
+  .Sy{
+    width: 100%;
+  }
+
+  #canto_util{
+    width: 100%;
+  }
+  #transf{
+      width: 100%;
+  }
+  #flexion{
+      width: 100%;
+      height: 1680px
   }
   .foto51{
-    position: none;
-    height: 235px;
-    top: 0px;
-  }
-  .img1{
-    position: relative;
-    right: 450px;
-    top: 160px;
-  }
-  .senty{
-    float: none;
-    width: 450px;
+    height: 315px;
   }
   .foto61{
-    position: none;
-    height: 235px;
-    top: 0px;
+    height: 315px;
   }
-  .img2{
-    position: relative;
-    right: -150px;
-    top: 470px;
+  #verficacion_por_adherencia{
+      width: 100%;
+      height: 620px;
   }
-  .As3{
-    float: none;
+  #AS3{
+width: 100%;
+height: 750px;
   }
   .foto71{
-    position: none;
-    height: 235px;
-    top: 0px;
+      height: 290px;
   }
-  .foto7{
-    position: absolute;
-    right: 240px;
+
+}
+
+
+
+/*cambio de tamaño de la pantalla para celular*/
+@media (max-width: 400px) {
+  #Dimensionamiento,#verificacion_a_punzo,#verificacion_a_flexion,#canto_util,#transf,#flexion,#verficacion_por_adherencia,#AS3{
+    padding-left: 4%;
+    padding-right: 5%;
   }
-  .img3{
-    position: relative;
-    right: 0px;
-    top: 750px;
-  }
+    /*Dimensionamiento en elevacion*/
+.foto2{
+  width: 300px;
+}
+.Verificacion2{
+  height: auto;
+}
+  /*Verificacion a corte por flexion*/
+.foto31{
+  width: 100%
+}
+.foto41{
+  width: 100%
+}
+#canto_util{
+  height: 300px;
+}
+#transf{
+  height: 200px;
+}
+.cumple_2{
+  position: relative;
+  right: -120px;
+  bottom: -10px;
+}
+/*flexion*/
+.sentx{
+  width: 100%;
+}
+.senty{
+  width: 100%;
+}
+/*adherencia*/
+#verficacion_por_adherencia{
+  height: 750px;
+}
+.AdhX{
+  width: 100%;
+  height: auto;
+}
+.Adhy{
+  width: 100%;
+  height: auto;
+}
+/*Acero 3*/
+.As3{
+  width: 100%;
+
+}
+.foto71{
+  width: 100%;
+}
+
+
 }
