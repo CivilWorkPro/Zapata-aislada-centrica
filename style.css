@@ -70,6 +70,11 @@
   right: 40px;
   bottom: -5px;
 }
+.qu{
+
+  width: 120px;
+  float: left;
+}
 
 #verificacion_a_punzo{
   width: 950px;
@@ -406,6 +411,15 @@ height: 750px;
   #Dimensionamiento,#verificacion_a_punzo,#verificacion_a_flexion,#canto_util,#transf,#flexion,#verficacion_por_adherencia,#AS3{
     padding-left: 4%;
     padding-right: 5%;
+  }
+  /*dimensionamiento en planta*/
+  .cumple1{
+    position: relative;
+    right: -120px;
+    bottom: -10px;
+  }
+  .qu{
+    width: 100%;
   }
     /*Dimensionamiento en elevacion*/
 .foto2{
