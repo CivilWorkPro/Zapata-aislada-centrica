@@ -1,0 +1,531 @@
+#Cabeza-de-zapata{
+  width: 90%;
+  margin: 0px auto;
+}
+.titulo{
+  text-align: center;
+  color: BLUE;
+  font: oblique bold 120% cursive;
+  font-size: 25px;
+  font-weight: 700;
+}
+.texto_ini{
+  padding-left: 40px;
+  padding-right: 60px;
+  font: arial;
+}
+#datos-inicio{
+  width: 950px;
+  margin: 0px auto;
+}
+
+.datos{
+  padding-left: 40px;
+  margin: 5px;
+  width: 30%;
+}
+.datos1{
+  list-style: none;
+  float: left;
+}
+.datos2{
+  list-style: none;
+  width: 280px;
+  float: left;
+}
+.foto1{
+  clear: both;
+  width: 250px;
+  height: auto;
+}
+#Dimensionamiento{
+  width: 950px;
+  height: 420px;
+  padding-left: 40px;
+  margin: 0px auto;
+}
+.Dimensionamiento1{
+    list-style: none;
+    width: 580px;
+    height: 420px;
+    float: left;
+}
+.Dimensionamiento2{
+    height: 240px;
+    width: 270px;
+   list-style: none;
+   float: left;
+}
+
+.foto2500{
+    width: 250px;
+    position: relative;
+    left: -200px;
+    bottom: -130px;
+}
+.cumple1{
+  display: flex;
+  float: right;
+  position: relative;
+  right: 40px;
+  bottom: -5px;
+}
+.qu{
+  width: 120px;
+  float: left;
+}
+.qadmB{
+  width: 260px;
+    float: left;
+}
+
+#verificacion_a_punzo{
+  width: 950px;
+  height: 420px;
+  padding-left: 40px;
+  margin: 0px auto;
+}
+.Verificacion1{
+  list-style: none;
+  width: 580px;
+  height: 415px;
+  float: left;
+}
+.areayperimetro{
+  width: 400px;
+  padding-left: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.Verificacion2{
+  height: 240px;
+  width: 270px;
+ list-style: none;
+ float: left;
+}
+
+.foto2{
+  width: 500px;
+  position: relative;
+  left: -290px;
+  bottom: -170px;
+}
+
+#verificacion_a_flexion{
+  width: 950px;
+  height: 760px;
+  padding-left: 40px;
+  margin: 0px auto;
+}
+.sentidox{
+  width: 300px;
+  float: left;
+}
+.Sx{
+  float: left;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.foto31{
+  width: 400px;
+  height: 275px;
+  position: relative;
+  float: left;
+}
+.foto3{
+  width: 300px;
+  height: auto;
+  position: absolute;
+  filter: brightness(1.1);
+  mix-blend-mode: multiply;
+}
+.Sy{
+  float: left;
+  width: 100%;
+  padding-top: 20px;
+}
+.sentidoy{
+  width: 300px;
+  float: left;
+}
+.foto41{
+  width: 400px;
+  height: 275px;
+  position: relative;
+  float: left;
+}
+.foto4{
+  width: 300px;
+  height: auto;
+  position: absolute;
+  filter: brightness(1.1);
+  mix-blend-mode: multiply;
+}
+
+
+#canto_util{
+  width: 950px;
+  height: 280px;
+  padding-left: 40px;
+  margin: 0px auto;
+}
+
+#transf{
+  width: 950px;
+  height: 150px;
+  padding-left: 40px;
+  margin: 0px auto;
+}
+.cumple_2{
+  float: left;
+  position: relative;
+  right: -410px;
+  bottom: -3px;
+}
+#flexion{
+  border: 1px solid white;
+  width: 950px;
+  height: 1020px;
+  padding-left: 40px;
+  margin: 0px auto;
+}
+.sentx{
+  float: left;
+  width: 450px;
+    float: left;
+    height: 485px;
+}
+.foto51{
+  height: 485px;
+      float: left;
+}
+.cuadrado1{
+  float: left;
+  position: relative;
+  width: 200px;
+  left: 90px;
+  bottom: 160px;
+  }
+  .foto5{
+    position: relative;
+    width: 300px;
+    height: auto;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    display: flex;
+    align-items: center;
+    top: 60px;
+  }
+  .acero_x{
+    font-weight: bold;
+  }
+
+.senty{
+  float: left;
+  width: 450px;
+    float: left;
+    height: 485px;
+}
+
+  .cuadrado2{
+    float: left;
+    position: relative;
+    width: 140px;
+    height: 1px;
+    left: 50px;
+    bottom: 85px;
+    transform: rotate(90deg);
+  }
+.foto61{
+height: 485px;
+    float: left;
+}
+.foto6{
+  position: relative;
+  width: 300px;
+  height: auto;
+  filter: brightness(1.1);
+  mix-blend-mode: multiply;
+  display: flex;
+  align-items: center;
+  top: 60px;
+}
+.img1{
+  position: absolute;
+}
+.acero_y{
+  font-weight: bold;
+}
+
+#verficacion_por_adherencia{
+  width: 950px;
+  height: 330px;
+  padding-left: 40px;
+  margin: 0px auto;
+}
+.AdhX{
+  float: left;
+  width: 450px;
+    float: left;
+    height: 280px;
+}
+.Adhy{
+  float: left;
+  width: 450px;
+    float: left;
+    height: 280px;
+}
+.p2{
+  float: left;
+  width: 90px;
+  position: relative;
+  bottom: 20px;
+}
+.p3{
+  float: left;
+  width: 90px;
+  position: relative;
+  bottom: 20px;
+}
+#AS3{
+  width: 950px;
+  height: 430px;
+  padding-left: 40px;
+  margin: 0px auto;
+  display: block;
+}
+
+.As3{
+  float: left;
+  width: 450px;
+    height: 380px;
+}
+
+.foto71{
+  float: left;
+  width: 450px;
+    height: 380px;
+}
+.foto7{
+  width: 300px;
+  height: auto;
+  position: relative;
+  padding-left: 0px;
+  filter: brightness(1.1);
+  mix-blend-mode: multiply;
+  display: flex;
+  align-items: center;
+}
+.cuadrado3{
+  position: relative;
+  height: 20px;
+  width: 140px;
+  left: 0px;
+  bottom: 160px;
+  transform: rotate(90deg);
+}
+.img3{
+  position: relative;
+  left: 0px;
+  bottom: 0px;
+}
+.acero_3{
+  font-weight: bold;
+}
+
+
+/*cambio de tamaño de la pantalla*/
+@media (max-width: 950px) {
+  #datos-inicio{
+    width: 100%;
+
+  }
+  #Dimensionamiento{
+    width: 100%;
+    height: 680px;
+  }
+  .Dimensionamiento1{
+    width: 100%;
+    height: auto;
+  }
+  .foto2500{
+      width: 250px;
+      position: relative;
+      left: 0px;
+      bottom: 0px;
+  }
+  .cumple1{
+    position: relative;
+    float:left;
+    right: -510px;
+  }
+  #verificacion_a_punzo{
+    width: 100%;
+    height:600px;
+  }
+  .foto2{
+    width: 500px;
+    position: relative;
+    left: 0px;
+    bottom: 0px;
+  }
+  .Verificacion1{
+    width: 100%;
+    height: auto;
+  }
+
+#verificacion_a_flexion{
+    width: 100%;
+    height: 1280px;
+  }
+  .Sx{
+    width: 100%;
+  }
+  .Sy{
+    width: 100%;
+  }
+
+  #canto_util{
+    width: 100%;
+  }
+  #transf{
+      width: 100%;
+  }
+  #flexion{
+      width: 100%;
+      height: 1680px
+  }
+  .foto51{
+    height: 315px;
+  }
+  .foto61{
+    height: 315px;
+  }
+  #verficacion_por_adherencia{
+      width: 100%;
+      height: 620px;
+  }
+  #AS3{
+width: 100%;
+height: 750px;
+  }
+  .foto71{
+      height: 290px;
+  }
+
+}
+
+
+
+/*cambio de tamaño de la pantalla para celular*/
+@media (max-width: 400px) {
+  #Dimensionamiento,#verificacion_a_punzo,#verificacion_a_flexion,#canto_util,#transf,#flexion,#verficacion_por_adherencia,#AS3{
+    padding-left: 4%;
+    padding-right: 5%;
+  }
+  /*dimensionamiento en planta*/
+  .cumple1{
+    position: relative;
+    right: -120px;
+    bottom: -10px;
+  }
+  .qu{
+    width: 100%;
+  }
+  .qadmB{
+    width: 100%;
+      float: left;
+  }
+  /*Verificacion a punzo*/
+  .areayperimetro{
+    width: 100%;
+    padding-left: 5px;
+  }
+    /*Dimensionamiento en elevacion*/
+.foto2{
+  width: 300px;
+}
+.Verificacion2{
+  height: auto;
+}
+  /*Verificacion a corte por flexion*/
+.foto31{
+  width: 100%
+}
+.foto41{
+  width: 100%
+}
+#canto_util{
+  height: 320px;
+}
+#transf{
+  height: 205px;
+}
+.cumple_2{
+  position: relative;
+  right: -120px;
+  bottom: -10px;
+}
+/*flexion*/
+#flexion{
+  height: 1600px;
+}
+.sentx{
+  width: 100%;
+}
+.foto5{
+  position: relative;
+  top: 10px;
+}
+.foto51{
+  height: 270px;
+}
+.cuadrado1{
+  bottom: 210px;
+  }
+.senty{
+  width: 100%;
+}
+.foto6{
+  position: relative;
+  top: 10px;
+}
+.foto61{
+  height: 270px;
+}
+.cuadrado2{
+  bottom: 140px;
+  }
+/*adherencia*/
+#verficacion_por_adherencia{
+  height: 650px;
+}
+.AdhX{
+  width: 100%;
+  height: 300px;
+}
+.Adhy{
+  width: 100%;
+  height: 300px;
+}
+/*Acero 3*/
+.As3{
+  width: 100%;
+
+}
+.foto7{
+  position: relative;
+  top: 10px;
+}
+
+.foto71{
+  width: 100%;
+}
+.cuadrado3{
+  position: relative;
+  bottom: 140px;
+
+}
+
+}
